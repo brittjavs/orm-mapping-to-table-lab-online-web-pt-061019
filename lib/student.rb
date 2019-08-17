@@ -36,8 +36,8 @@ class Student
     FROM students")[0][0]
   end
   
-  def self.create(name:, age:)
-    student = Student.new(name, age)
+  def self.create(name:, grade:)
+    student = Student.new(name, grade)
     song.save
     song
   end
